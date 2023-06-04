@@ -31,7 +31,6 @@ public class FileSeparater {
         File docx = new File(dirName + "\\DOCUMENT");
         File txt = new File(dirName + "\\TEXT");
         File vid = new File(dirName + "\\VIDEO");
-//        File oth = new File(dirName + "\\OTHERS");
 
         File[] allfiles = file.listFiles();     // file array of all files present in the directory entered by user
 
@@ -109,20 +108,3 @@ public class FileSeparater {
         }
     }
 }
-
-
-
-
-
-
-
-
-/*        // Input Separator file path
-        System.out.println("Enter PDF Directory Path : ");
-        String pdfpath = sc.nextLine();
-        System.out.println("Enter IMAGE Directory Path : ");
-        String imgpath = sc.nextLine();
-        System.out.println("Enter DOCX Directory Path : ");
-        String docxpath = sc.nextLine();
-        System.out.println("Enter TEXT Directory Path : ");
-        String txtpath = sc.nextLine();*/
